@@ -1,6 +1,6 @@
 # A Star Search Algorithm
 </br>
-Description of the characters displayed on the terminal :</br>
+Description of the characters displayed on the terminal:</br>
 - ███: wall node</br>
 - C: cobblestone node</br>
 - S: sand node</br>
