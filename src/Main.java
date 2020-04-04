@@ -2,8 +2,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        if(args.length != 1) {
+        if(args.length < 1) {
             System.err.println("Missing argument : expecting java -jar maze.jar <mazeNumber>");
+            return;
+        }else if(args.length > 1) {
+            System.err.println("Too much arguments : expecting java -jar maze.jar <mazeNumber>");
             return;
         }
         try {
