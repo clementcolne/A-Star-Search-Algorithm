@@ -1,4 +1,4 @@
-# A-Star-Search-Algorithm
+# A Star Search Algorithm
 
 Description des caractères affichés dans le terminal :</br>
     - ███ : noeud mur</br>
