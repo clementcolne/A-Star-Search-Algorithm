@@ -12,7 +12,7 @@ Description of the characters displayed on the terminal:</br>
 - ╬: closed node</br>
 </br>
 User manual :</br>
-The main is expecting a parameter :</br>
+The main expects a parameter :</br>
 - 0: random generation of the maze with random nodes /!\ be careful, no guarantee that there is a path /!\</br>
 - 1: generation of an empty maze (i.e. no wall nodes) with random nodes</br>
 - 2: generation of a maze with predefined walls and random nodes</br>
