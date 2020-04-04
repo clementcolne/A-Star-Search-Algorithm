@@ -1,8 +1,8 @@
 # A-Star-Search-Algorithm
 
 Description des caractères affichés dans le terminal :
-    - ███ : noeud mur
-    - C : noeud pierre (cobblestone)
+    - ███ : noeud mur. 
+    - C : noeud pierre (cobblestone)  
     - S : noeud sable (sand)
     - W : noeud eau (water)
     - STA : noeud de départ
