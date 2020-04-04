@@ -21,4 +21,4 @@ At each iteration of the algorithm, the maze is displayed with its states: open 
 </br>
 How to run:</br>
 - Using jar: with the terminal, in the folder of the jar, using "java -jar maze.jar" command (note : this jar has been compiled with java 8)</br>
-- Using code: with the terminal, in the folder of the jar, using "javac Main.java" command, and "java Main.class <maze number>" to execute
+- Using code: with the terminal, in the folder of the jar, using "javac Main.java" command, and "java Main.class \<maze number\>" to execute
