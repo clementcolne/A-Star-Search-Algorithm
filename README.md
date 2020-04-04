@@ -1,20 +1,24 @@
 # A Star Search Algorithm
-
-Description des caractères affichés dans le terminal :</br>
-    - ███ : noeud mur</br>
-    - C : noeud pierre (cobblestone)</br>
-    - S : noeud sable (sand)</br>
-    - W : noeud eau (water)</br>
-    - STA : noeud de départ</br>
-    - END : noeud d'arrivée</br>
-    - ≡≡≡ : noeud faisant partie du chemin final</br>
-    -  ┼ : noeud ouvert</br>
-    -  ╬ : noeud fermé</br></br>
-
-Guide d'utilisation :</br>
-    Au lancement du jar (ou du code) le programme attend un paramètre :</br>
-    - 0 : génération aléatoire d'un labyrinthe avec textures aléatoires (attention, aucune garantie qu'il existe un chemin)</br>
-    - 1 : génération d'un terrain entièrement vide avec textures aléatoires</br>
-    - 2 : génération d'un labyrinthe avec des murs fixée et textures aléatoires</br></br>
-
-A chaque itération de l'algorithme, pour le labyrinthe classique, vous avez un affichage complet du labyrinthe et ses états, noeuds ouverts et fermés, et le chemin final est affichés sur la dernière itération.
+</br>
+Description of the characters displayed on the terminal :</br>
+- ███: wall node</br>
+- C: cobblestone node</br>
+- S: sand node</br>
+- W: water node</br>
+- STA: start node</br>
+- END: end node</br>
+- ≡≡≡: node part of the final path</br>
+- ┼: open node</br>
+- ╬: closed node</br>
+</br>
+User manual :</br>
+The main is expecting a parameter :</br>
+- 0: random generation of the maze with random nodes /!\ be careful, no guarantee that there is a path /!\</br>
+- 1: generation of an empty maze (i.e. no wall nodes) with random nodes</br>
+- 2: generation of a maze with predefined walls and random nodes</br>
+</br>
+At each iteration of the algorithm, the maze is displayed with its states: open and closed nodes. The final path is displayed on the last iteration.</br>
+</br>
+How to run:</br>
+- Using jar: with the terminal, in the folder of the jar, using "java -jar maze.jar" command (note : this jar has been compiled with java 8)</br>
+- Using code: with the terminal, in the folder of the jar, using "javac Main.java" command, and "java Main.class <maze number>" to execute
