@@ -2,6 +2,17 @@ public class Main {
 
     public static void main(String[] args) {
 
+        if(args.length != 1) {
+            System.err.println("Missing argument : expecting java -jar maze.jar <mazeNumber>");
+            return;
+        }
+        try {
+            Integer.parseInt(args[0]);
+        }catch(NumberFormatException e) {
+            System.err.println("Wrong argument type : expecting integer");
+            return;
+        }
+
         int width = 15;
         int length = 15;
         int nbMaze = Integer.parseInt(args[0]);
